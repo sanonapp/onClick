@@ -1,0 +1,19 @@
+<!--suppress AndroidDomInspection -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item android:id="tProfil"
+        android:title="profil"
+        android:icon="@android:drawable/ic_profil_24.xml"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@id/tNotification"
+        android:orderInCategory="5"
+        android:title="notification"
+        android:icon="@android:drawable/ic_notification_overlay_24.xml"
+        app:showAsAction="always|collapseActionView"
+        app:actionViewClass="androidx.appcompat.widget.ActionMenuView" />
+
+</menu>
